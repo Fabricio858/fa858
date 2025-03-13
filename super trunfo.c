@@ -9,6 +9,7 @@ int main(){
   int pontos;
   float area;
   float pib;
+  //printf para o usuario saber a informação que queremos e scanf para ler os dados do usuario
   printf("Digite a carta: \n");
   scanf("%s", &carta);
 
@@ -33,7 +34,7 @@ scanf("%f", &pib);
 printf("Digite o número de pontos turisticos: \n");
 scanf("%d",&pontos);
 
-
+//coloquei todas as informações para serem exibidas uma abaixo da outra
   printf("Carta: %s \n",  carta);
   printf("Estado: %s \n", estado);
   printf("Codigo: %s \n", codigo);
